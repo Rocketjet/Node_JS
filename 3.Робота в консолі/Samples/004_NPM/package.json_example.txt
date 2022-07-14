@@ -1,0 +1,14 @@
+{
+  "name": "My project",
+  "main": "app.js", // a script to load when importing a module
+  "type": "module", // to use EcmaScript modules
+  "dependencies": { // modules required in production
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": { // modules required for development
+    "nodemon": "^2.0.12"
+  },
+  "scripts": { // projects scripts 
+    "start": "nodemon app.js"
+  }
+}
